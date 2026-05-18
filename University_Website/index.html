@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>UCC Website</title>
+    <link rel="icon" type="image/x-icon" href="https://www.ucc.co.tz/image-cache/scale/120x120/2022/02/22/s4s1J9bxoLLRydZqBiv3x0f46DVznVsD3jjVrhvN.png">
+    <script src="https://kit.fontawesome.com/1ddfeec4c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/University_Website/css/styles.css">
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <!--left-logo-->
+            <img src="https://www.ucc.co.tz/image-cache/scale/120x120/2022/02/22/lRDRZHcq3UePqNNb6fkenx56DLOMTJnYNZ4mBGVM.png" alt="udsm-logo" class="udsm-logo">
+
+            <!--header-Content-->
+            <div class="header-content">
+                <h1>UNIVERSITY OF DAR ES SALAAM COMPUTING CENTRE</h1>
+                <p class="tagline">Excellence, Innovation and Technological Foresight</p>
+            </div>
+
+            <!--right-logo-->
+            <img src="https://www.ucc.co.tz/image-cache/scale/120x120/2022/02/22/s4s1J9bxoLLRydZqBiv3x0f46DVznVsD3jjVrhvN.png" alt="ucc-logo" class="ucc-logo">
+        </div>
+
+        <!--navigation-part with pale blue background, ends directly before image-->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="hamburger" id="hamburger">☰</div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <!-- Our Services (main dropdown) -->
+                    <li class="dropdown" id="servicesDropdown">
+                        <a href="#services">Our Services</a>
+                        <ul class="dropdown-menu">
+                            <!-- Training Services (with submenu) -->
+                            <li class="subdropdown" id="trainingSub">
+                                <span class="subdropdown-toggle">Training Services</span>
+                                <ul class="submenu">
+                                    <li><a href="#">Academic</a></li>
+                                    <li><a href="#">Professional</a></li>
+                                    <li><a href="#">Tailor Made</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">IT Infrastructure</a></li>
+                            <li class="subdropdown" id="trainingSub">
+                                <span class="subdropdown-toggle">Software Products &  Service</span>
+                                <ul class="submenu">
+                                    <li><a href="#">Educational</a></li>
+                                    <li><a href="#">Financial</a></li>
+                                    <li><a href="#">Health</a></li>
+                                    <li><a href="#">HR & Payroll</a></li>
+                                    <li><a href="#">M&E</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">IT Consulting</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#news">News&Events</a></li>
+                    <li><a href="#downloads">Downloads</a></li>   <!-- fixed missing closing tag -->
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- image section: attached directly after nav bar (no spacing) -->
+    <section id="home" class="section">
+        <img src="https://www.ucc.co.tz/image-cache/resize/971x890/2023/02/khtkPPtiYuXRrX8NtqSgMr89ZnWsccdk9EHgdJdX.jpg" alt="UCC-Campus">
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="box">
+                <img src="https://www.ucc.co.tz/image-cache/scale/120x120/2022/02/22/s4s1J9bxoLLRydZqBiv3x0f46DVznVsD3jjVrhvN.png" alt="ucc-logo" style="border-radius: 55%;">
+                <p>We have lots of courses and programs from the main market experts.</p>
+                <h4>Follow us</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/ucc.udsm" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/..." target="_blank">Twitter</a></li>
+                    <li><a href="https://instagram.com/..." target="_blank">Instagram</a></li>
+                    <li><a href="https://youtube.com/..." target="_blank">Youtube</a></li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h3>Explore</h3>
+                <!-- Additional explore links could be added but keep original minimal structure -->
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h2 style="color: rgb(254, 255, 255);">Get in touch</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="#">Dar-es-Salaam,<br>
+                           University of Dar-es-Salaam,<br>
+                           University Road
+                       </a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#">
+                            +255 22 2410641/5, +255 754782120
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="#">
+                            info@ucc.co.tz
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p style="text-align: center;">@ 2026 All Copyright Reserved. Developed by <a href="#">UCC</a></p><br>
+    </footer>
+    <script src="/University_Website/JS/general.js"></script>
+</body>
+</html>
